@@ -38,6 +38,10 @@ body {
     width: 350px;
     padding: 20px;
     border: solid rgb(50, 10, 10);
+    margin: 30px;
+    box-shadow: 20px 20px 30px gray;
+    transition: 1s;
+
 }
 
 .hero {
@@ -70,5 +74,12 @@ body {
     color: white;
     background-color: gray;
     margin: auto;
+}
 
+.card-crepusculo:hover {
+    transform: scale(1.2);
+}
+
+iframe {
+    box-shadow: 15px 15px 20px rgb(50, 10, 10);
 }
